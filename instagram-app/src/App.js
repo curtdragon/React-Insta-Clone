@@ -7,14 +7,14 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      instagramData: data
+      posts: data
     };
   }
 
   render() {
     return (
       <div className="App">
-        <PostContainer posts={this.state.instagramData}/>
+        <PostContainer posts={this.state.posts}/>
       </div>
     );
   }

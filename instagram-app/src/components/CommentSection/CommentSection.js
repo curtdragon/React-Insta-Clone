@@ -4,7 +4,7 @@ function CommentSection(props) {
     return (
         <>
         {props.comments ?
-         props.posts.map(comments => {
+         props.comments.map(comments => {
                 return <div key={comments.id}>
                     <p>{comments.username}</p>
                     <p>{comments.text}</p>
@@ -23,6 +23,6 @@ function CommentSection(props) {
         }
         </>
     );
-}
+};
 
 export default CommentSection;
