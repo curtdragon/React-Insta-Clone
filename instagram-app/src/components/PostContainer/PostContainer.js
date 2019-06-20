@@ -22,6 +22,14 @@ function PostContainer(props) {
                     <CommentSection comments={posts.comments}/>                    
                 </div>
                 <p className="timeStamp">{posts.timestamp}</p>
+                <form className="newComment" /*onSubmit={this.submitHandler}*/>
+                    <input
+                        // value={this.state.listItem}
+                        placeholder="Add a comment..."
+                        type="text"
+                    // onChange={this.changeHandler}
+                    />
+                </form>
             </div>
         ))}
         </>
