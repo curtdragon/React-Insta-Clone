@@ -1,0 +1,6 @@
+.newComment {
+    border-top: 1px solid lightgray;
+}
+.newComment input[type=text] {
+    border: none;
+}

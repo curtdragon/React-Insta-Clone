@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "./CommentSection.css";
 
 function CommentSection(props) {
     return (
@@ -6,7 +7,7 @@ function CommentSection(props) {
             {props.comments ?
             props.comments.map(comments => {
                     return <div key={comments.id}>
-                        <p>{comments.username}</p>
+                        <p className="name">{comments.username}</p>
                         <p>{comments.text}</p>
                     </div>
             })
@@ -16,15 +17,15 @@ function CommentSection(props) {
             {props.comments &&
             props.comments.map(comments => {
                 return <div key={comments.id}>
-                    <p>{comments.username}</p>
+                    <p className="name">{comments.username}</p>
                     <p>{comments.text}</p>
                 </div>
             })
             }
-            <form /*onSubmit={this.submitHandler}*/>
+            <form className="newComment" /*onSubmit={this.submitHandler}*/>
                 <input
                     // value={this.state.listItem}
-                    placeholder="New Comment"
+                    placeholder="Add a comment..."
                     type="text"
                     // onChange={this.changeHandler}
                 />

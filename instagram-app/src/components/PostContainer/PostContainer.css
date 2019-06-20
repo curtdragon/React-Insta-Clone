@@ -1,0 +1,37 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    margin: 0 20px 0 20px;
+    justify-content: center;
+}
+.posterInfo {
+    display: flex;
+    flex-direction: row;
+}
+.postImg {
+    height: 600px;
+    width: 600px;
+    margin-left: -15px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    padding: 15px;
+}
+.thumbImg {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+}
+.timeStamp {
+    color: grey;
+}
+.likes {
+    font-weight: bold
+}
+/* .comments {
+    display: flex;
+}
+ */
