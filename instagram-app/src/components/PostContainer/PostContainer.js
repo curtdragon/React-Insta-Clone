@@ -3,6 +3,7 @@ import CommentSection from "../CommentSection/CommentSection"
 import PropTypes from "prop-types";
 import "./PostContainer.css";
 
+// Function to create entire post. Will have the picture, poster and likes. Will call seaprate function for comments
 function PostContainer(props) {
     return (
         <>
@@ -36,6 +37,7 @@ function PostContainer(props) {
     );
 };
 
+//Setting all the proptypes
 PostContainer.propTypes = {
     posts: PropTypes.arrayOf(
         PropTypes.shape({
@@ -56,6 +58,7 @@ PostContainer.propTypes = {
     )
 };
 
+//Setting default props
 PostContainer.defaultProps = {
     posts: [
         {

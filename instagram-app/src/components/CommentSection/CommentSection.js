@@ -1,6 +1,7 @@
 import React from "react";
 import "./CommentSection.css";
 
+//Function to create each comment including commenter name and comment
 function CommentSection(props) {
     return (
         <>
