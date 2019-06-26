@@ -1,0 +1,49 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 186px;
+    width: 600px;
+    border: 1px solid lightgrey;
+    margin-bottom: 25px;
+}
+.posterInfo {
+    display: flex;
+    flex-direction: row;
+}
+.postImg {
+    height: 600px;
+    width: 600px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+    width: 75px;
+}
+.thumbImg {
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    margin: 8px 0 8px 8px;
+}
+.timeStamp {
+    color: grey;
+    margin-bottom:10px;
+}
+.likes {
+    font-weight: bold
+}
+p {
+    display: inline-block;
+    margin: 14px 0 0 10px;
+}
+.newComment {
+    border-top: 1px solid lightgray;
+}
+
+.newComment input[type=text] {
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 15px 0 15px 10px;
+}
